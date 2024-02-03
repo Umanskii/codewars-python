@@ -15,23 +15,9 @@ caffeineBuzz(6)   => "JavaScript"
 caffeineBuzz(12)  => "CoffeeScript"
 """
 
-def caffeineBuzz(n):
-    current_string = ''
-    if n % 3 == 0 and n % 4 == 0:
-        current_string += 'Coffee'
-    elif n % 3 == 0:
-        current_string += 'Java'
-    else:
-        return "mocha_missing!"
-    if n % 2 == 0:
-        current_string += 'Script'
-
-    return current_string
-
-
-if __name__ == "__main__":
-    print caffeineBuzz(1)
-    print caffeineBuzz(3)
-    print caffeineBuzz(6)
-    print caffeineBuzz(12)
-
+def caffeine_buzz(n): 
+    if n%3==0 and n%4==0 and n%2==0: return 'CoffeeScript'
+    if n%3==0 and n%2==0: return 'JavaScript'
+    if n%3==0 and n%4==0: return 'Coffee'
+    if n%3==0: return 'Java'
+    else: return 'mocha_missing!'
