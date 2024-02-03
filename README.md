@@ -22,5 +22,5 @@ Clone this repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your-username/python-codewars-practice.git
+git clone https://github.com/Umanskii/codewars-python.git
 Navigate to the desired topic folder and start coding!
