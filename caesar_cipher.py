@@ -12,7 +12,6 @@ Make sure to only shift letters, and be sure to keep the cases of the letters th
 Also be aware of keys greater than 26 and less than -26. There's only 26 letters in the alphabet!
 
 """
-
 import string
 
 def encryptor(key, message):
