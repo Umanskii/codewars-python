@@ -14,16 +14,15 @@ placed somewhere after the first 3 characters of the string. The quotes either b
 """
 
 
+HERO = {'B': 'Batman', 'J': 'Joker', 'R': 'Robin'}
+OUTPUT = '{}: {}'.format
 class BatmanQuotes(object):
-
     @staticmethod
-    def get_quote(quotes, hero):
-        hero_dict = {'JOK': 'Joker', 'BAT': 'Batman', 'ROB': 'Robin'}
-        _name = hero_dict.get(hero[:3].upper())
-        _index = int(filter(lambda x: x.isdigit(), hero))
-        return _name + ": " + quotes[_index]
-
-
-if __name__ == '__main__':
-    quotes = ["WHERE IS SHE?!", "Holy haberdashery, Batman!", "Let's put a smile on that faaaceee!"]
-    print BatmanQuotes.get_quote(quotes, "Rob1n")
+    def get_quote(sentences, hero):
+        for i, a in enumerate(hero):
+            if i == 0:
+                hero = HERO[a]
+            elif a.isdigit():
+                sentences = sentences[int(a)]
+                break
+        return OUTPUT(hero, sentences)
