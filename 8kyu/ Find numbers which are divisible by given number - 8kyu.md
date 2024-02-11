@@ -20,3 +20,5 @@ def divisible_by(numbers, divisor):
 
 
 ---
+
+[See on Codewars.com](https://www.codewars.com/kata/55edaba99da3a9c84000003b)
