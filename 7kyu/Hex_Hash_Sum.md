@@ -33,12 +33,19 @@ def hex_hash(code):
 
 ### Solution
 
-
 ```python
 def hex_hash(code):
     return sum([sum([int(i) for i in hex(ord(c)) if i.isdigit()]) for c in code for i in c])
 ```
 
+### Solution 2
+
+```python
+def hex_hash(code):
+    return sum(int(d) for c in code for d in hex(ord(c)) if d.isdigit())
+```
+
+---
 ---
 
 
