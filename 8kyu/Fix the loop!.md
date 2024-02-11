@@ -9,12 +9,14 @@ Your collegue wrote an simple loop to list his favourite animals. But there seem
 If you pass the list of your favourite animals to the function, you should get the list of the animals with orderings and newlines added.
 
 ### For example, passing in:
-
+```python
 animals = [ 'dog', 'cat', 'elephant' ]
+```
 
 ### will result in:
-
+```python
 list_animals(animals) == '1. dog\n2. cat\n3. elephant\n'
+```
 
 ### Solution
 ```python
