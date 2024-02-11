@@ -6,7 +6,7 @@
 
 # DESCRIPTION:
 
-Theoretical Material
+Theoretical Material:
 
 You are given two vectors starting from the origin (x=0, y=0) 
 with coordinates (x1,y1) and (x2,y2). Your task is to find out if these 
@@ -31,7 +31,7 @@ Be careful when handling cases where x1, x2, y1, or y2 are zero to avoid divisio
 A vector with coordinates (0, 0) is collinear to all vectors.
 
 # Examples
-
+```
 (1,1,1,1) ➞ true
 (1,2,2,4) ➞ true
 (1,1,6,1) ➞ false
@@ -43,7 +43,7 @@ A vector with coordinates (0, 0) is collinear to all vectors.
 (0,0,0,0) ➞ true
 (0,0,1,0) ➞ true
 (5,7,0,0) ➞ true
-
+```
 ### Solution
 ```python
 def bin_to_decimal(inp):
