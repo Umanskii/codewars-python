@@ -45,10 +45,10 @@ A vector with coordinates (0, 0) is collinear to all vectors.
 (5,7,0,0) ➞ true
 
 ### Solution
-'''python
+```python
 def bin_to_decimal(inp):
     return int(inp,2)
-'''
+```
 ---
 
 [See on CodeWars.com] (https://www.codewars.com/kata/65ba420888906c1f86e1e680)
