@@ -22,4 +22,4 @@ def has_unique_chars(s):
 ---
 
 
-[See on CodeWa,com]()
+[See on CodeWa,com](https://www.codewars.com/kata/553e8b195b853c6db4000048)
